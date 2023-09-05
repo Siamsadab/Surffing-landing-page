@@ -1,0 +1,781 @@
+@media only screen and (max-width:480px){
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 0, 0, 0.966);
+        padding:20px 35px;
+        position: relative;
+        width: 100%;
+    }
+
+    .nav{
+        display: none;
+    }
+    .menu-bar{
+        display: inline-block;
+        background-color: rgba(240, 136, 1, 0.938);
+        text-align: right;
+        font-size: 35px;
+        flex-basis: 50%;
+        
+    }
+
+    .nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        background-color: #00b0f500;
+    }
+    
+    .nav ul li{
+        background-color: #c0d31900;
+    }
+    
+    .nav ul li a{
+        text-decoration: none;
+        margin-right: 60px;
+        color: rgba(255, 0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .logo{
+        padding-left: 0px;
+        flex-basis: 50%;
+        background-color: #578b9e00;
+        text-align: left;
+    }
+
+    /* <<<<<<<<<<<<<<<<<<<banner areaa <<<<<<<<<<<<<<<<<<<<< */
+    .banner-area{
+       
+          padding: 0px 45px;
+          background-color: rgba(255, 153, 0, 0.897);
+          height: 45vh;
+          flex-direction:column;
+          bottom:0px;
+          
+      }
+
+      .content-div{
+        padding: 0px 45px;
+    }
+    
+
+    .content-div h1{
+        font-size: 35px;
+        
+    }
+
+    .content-div p{
+       
+       
+        font-size: 14px;
+      }
+
+      .IMAGE-DIV{
+       
+      width: 100%;
+      left:0px;
+      top: 200px;
+    position: relative;
+    
+      
+     
+    }
+    .IMAGE-DIV img{
+        height:100%;
+        width:100%;
+      
+        
+    }
+    .content-div h6{
+        font-size: 15px;
+    }
+
+    .down{
+        text-align: center;
+        background-color: #00aff5;
+    }
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>> experience start <<<<<<<<<<<<<<<< */
+     
+    .experience{
+        padding: 20px 20px;
+        min-height: 60vh;
+        background-color: #a7bb39f5;
+     }
+     .up-div{
+       
+        padding: 40px;
+        background-color: #0a0a0800;
+        
+      }
+      .up-div h3{
+        font-size: 18px;
+        
+        width: 100%;
+        margin: auto;
+        text-align:center;
+        padding: 0px 20px;
+
+    }
+    .up-div h6{
+        
+        padding: 20px 0px;
+       
+     }
+
+     
+     .right-div{
+        width: 60%;
+        position:absolute;
+        right: 0px;
+        top: 20px;
+        
+    }
+     .hr{
+       
+        height: 60px;
+        background-color: #00ccff;  
+        margin-bottom: 30px;
+    }
+    .up-div h6{
+        font-size: 15px;
+     }
+     .down{
+        text-align: left;
+        padding: 170px 200px;
+        max-height: 800px;
+       display: none;
+    }
+     .down2{
+       display: inline-block;
+       text-align: center;
+       margin: auto;
+       background-color: rgba(255, 155, 24, 0);
+       margin-top: 100px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 0px 0px;
+       
+     }
+     .down2 p{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        margin: auto;
+        padding: 0px 0px;
+    }
+
+    .btn2 {
+     
+        margin: auto;
+        font-size: 12px;
+        border: 0px;
+        background-color: transparent;
+        border-bottom: 1px solid rgb(32, 146, 199);
+        padding: 10px 0px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+          letter-spacing: 3px;
+          word-spacing: 5px;
+          
+          
+       }
+
+       /* 
+<!-- >>>>>>>>>>>>>>> surf boards?>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+.surfboard-section{
+    padding: 0px 45px;
+    background-color: #141f2400;
+    margin-top: -60px;
+}
+
+.upper h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    color: #000000;
+}
+.upper h6{
+    font-size: 14px;
+}
+
+.downs {
+   
+flex-direction: column; 
+}
+
+
+
+.div1{
+ flex-basis: 100%;
+ width: 100%;
+ background-color: #1c394100;
+}
+
+
+.con h3{
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;
+}
+
+.up-con h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #585858;
+}
+.up-con{
+    margin-left: -40px;
+    z-index: 4;
+    margin-top: 120%;
+}
+.down-con h2{
+    color: rgb(222, 46, 238);
+    font-size: 16px;
+}
+.down-con h6{
+  font-size: 12px;
+}
+/* <<<<<<<<<<<<<<<<training >>>>>>>>>>>>>>>> */
+
+#training{
+    
+     padding: 0px 35px;
+     flex-direction: column;
+  }
+  .leftt-div h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.leftt-div {
+    flex-basis: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+.hrr{
+    border: none;
+    height: 3px;
+    width: 30px;
+    background-color: #00aff5;
+    display: none;
+   
+}
+.leftt-div p{
+    font-family: 'Poppins', sans-serif;
+    padding: 25px 0px;
+    padding-bottom: 15px;
+    color: #888888;
+    font-size: 13px;
+}
+.rightt-div{
+    flex-basis: 60%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.surf{
+    display: none;
+}
+
+#break-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+#break-point{
+
+    flex-direction: column;
+   
+}
+.contnt {
+    flex-basis: 40%;
+    padding: 0px 35px;
+}
+.contnt h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.contnt p{
+    font-size: 13px;
+}
+
+.pic{
+    padding: 35px;
+}
+.hrrr{
+    height: 60px;
+    width: 2px;
+   border: 0px;
+   background-color: #00aff5;
+   margin: auto;
+}
+
+/* <<<<<<<<<<<Join club>>>>>>>>>>>> */
+#join-club{
+    width: 100%;
+    padding: 0px 35px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 200px ;
+}
+.text h1{
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text p{
+
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0px;
+    color: #888888;
+    font-size: 13px;
+}
+
+#email{
+    flex-basis: 90%;
+    padding: 2.3% ;
+    border: none;
+    font-size: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 5px 1px rgba(187, 187, 187, 0.281),3px 3px 7px 2px rgba(143, 143, 143, 0.068)    ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* >>>>>>>>>>>>>>last section >>>>>>>>>>>>>> */
+.las-sec{
+    flex-direction: column;
+}
+
+.texttt{
+   padding: 0px 40px;
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #b2c8d100;
+}
+
+.texttt h1{
+  
+    padding-left: 0px;
+}
+
+.texttt h1{
+
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<footer>>>>>>>>>>>>>>> */
+.navvv ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+}
+/* <<<<<<<<<<<<<<<<<< for 6000 pxxxxxxxxx<<<<<< */
+
+@media only screen and (max-width:600px){
+
+    #header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(187, 22, 22, 0);
+        padding:40px  45px ;
+        position: relative;
+    }
+
+    .nav{
+        display: none;
+    }
+    .menu-bar{
+        visibility:visible;
+        background-color: rgba(206, 157, 93, 0);
+        text-align: right;
+        font-size: 35px;
+    }
+
+    /* <<<<<<<<<<<<<<<<<<<banner areaa <<<<<<<<<<<<<<<<<<<<< */
+    .banner-area{
+       
+          padding: 0px 45px;
+          background-color: rgba(32, 26, 17, 0);
+          height: 55vh;
+          flex-direction:column;
+          bottom:0px;
+          
+      }
+
+      .content-div{
+        padding: 0px 45px;
+    }
+    
+
+    .content-div h1{
+        font-size: 35px;
+        
+    }
+
+    .content-div p{
+       
+       
+        font-size: 14px;
+      }
+
+      .IMAGE-DIV{
+       
+      width: 100%;
+      left:0px;
+      top: 200px;
+    position: relative;
+    
+      
+     
+    }
+    .IMAGE-DIV img{
+        height:100%;
+        width:100%;
+      
+        
+    }
+    .content-div h6{
+        font-size: 15px;
+    }
+
+    .down{
+        text-align: center;
+        background-color: #00aff5;
+    }
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>> experience start <<<<<<<<<<<<<<<< */
+     
+    .experience{
+        padding: 20px 20px;
+        min-height: 90vh;
+        background-color: #26b0d300;
+     }
+     .up-div{
+       
+        padding: 0px;
+        
+      }
+      .up-div h3{
+        font-size: 18px;
+        
+        width: 100%;
+        margin: auto;
+        text-align:center;
+        padding: 0px 20px;
+
+    }
+    .up-div h6{
+        
+        padding: 20px 0px;
+       
+     }
+
+     
+     .right-div{
+        width: 60%;
+        position:absolute;
+        right: 0px;
+        top: 20px;
+        
+    }
+     .hr{
+       
+        height: 60px;
+        background-color: #00ccff;  
+        margin-bottom: 30px;
+    }
+    .up-div h6{
+        font-size: 15px;
+     }
+     .down{
+        text-align: left;
+        padding: 170px 200px;
+        max-height: 800px;
+       display: none;
+    }
+     .down2{
+       display: inline-block;
+       text-align: center;
+       margin: auto;
+       background-color: rgba(255, 155, 24, 0);
+       margin-top: 100px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+     }
+     .down2 p{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        margin: auto;
+    }
+
+    .btn2 {
+     
+        margin: auto;
+        font-size: 12px;
+        border: 0px;
+        background-color: transparent;
+        border-bottom: 1px solid rgb(32, 146, 199);
+        padding: 10px 0px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+          letter-spacing: 3px;
+          word-spacing: 5px;
+          
+          
+       }
+
+       /* 
+<!-- >>>>>>>>>>>>>>> surf boards?>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+.surfboard-section{
+    padding: 0px 45px;
+}
+
+.upper h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    color: #000000;
+}
+.upper h6{
+    font-size: 14px;
+}
+
+.downs {
+   
+flex-direction: column; 
+}
+
+
+
+.div1{
+ flex-basis: 100%;
+ width: 100%;
+ background-color: #1c394100;
+}
+
+
+.con h3{
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;
+}
+
+.up-con h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #585858;
+}
+.up-con{
+    margin-left: -40px;
+    z-index: 4;
+    margin-top: 120%;
+}
+.down-con h2{
+    color: rgb(222, 46, 238);
+    font-size: 16px;
+}
+.down-con h6{
+  font-size: 12px;
+}
+/* <<<<<<<<<<<<<<<<training >>>>>>>>>>>>>>>> */
+
+#training{
+    
+     padding: 0px 35px;
+     flex-direction: column;
+  }
+  .leftt-div h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.leftt-div {
+    flex-basis: 100%;
+    padding: 0px 0px;
+    text-align: center;
+}
+.hrr{
+    border: none;
+    height: 3px;
+    width: 30px;
+    background-color: #00aff5;
+    display: none;
+   
+}
+.leftt-div p{
+    font-family: 'Poppins', sans-serif;
+    padding: 25px 0px;
+    padding-bottom: 15px;
+    color: #888888;
+    font-size: 13px;
+}
+.rightt-div{
+    flex-basis: 60%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.surf{
+    display: none;
+}
+
+#break-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+#break-point{
+
+    flex-direction: column;
+   
+}
+.contnt {
+    flex-basis: 40%;
+    padding: 0px 35px;
+}
+.contnt h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.contnt p{
+    font-size: 13px;
+}
+
+.pic{
+    padding: 35px;
+}
+.hrrr{
+    height: 60px;
+    width: 2px;
+   border: 0px;
+   background-color: #00aff5;
+   margin: auto;
+}
+
+/* <<<<<<<<<<<Join club>>>>>>>>>>>> */
+#join-club{
+    width: 100%;
+    padding: 0px 35px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 200px ;
+}
+.text h1{
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text p{
+
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0px;
+    color: #888888;
+    font-size: 13px;
+}
+
+#email{
+    flex-basis: 90%;
+    padding: 3% ;
+    border: none;
+    font-size: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 5px 1px rgba(187, 187, 187, 0.281),3px 3px 7px 2px rgba(143, 143, 143, 0.068)    ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* >>>>>>>>>>>>>>last section >>>>>>>>>>>>>> */
+.las-sec{
+    flex-direction: column;
+}
+
+.texttt{
+   padding: 0px 40px;
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #b2c8d100;
+}
+
+.texttt h1{
+  
+    padding-left: 0px;
+}
+
+.texttt h1{
+
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<footer>>>>>>>>>>>>>>> */
+.navvv ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+}
+
+
+/* <<<<<<<< 1024 pxxx>>>>>>>>>>>>> */
+
+
+
+

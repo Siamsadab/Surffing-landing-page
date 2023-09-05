@@ -1,0 +1,259 @@
+@media only screen and (max-width:1260px){
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(250, 0, 0, 0);
+        padding:40px  45px ;
+        position: relative;
+        
+    }
+    .content-div h1{
+        font-size: 45px;
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 700;
+    }
+    .banner-area{
+        position: relative;
+          padding: 0px 45px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: rgba(156, 92, 8, 0);
+          height: 85vh;
+      }
+      .IMAGE-DIV{
+        position: absolute; 
+       right: 45px;
+      width: 70%;
+      z-index: -1;
+    }
+    .content-div p{
+        word-wrap: break-word;
+        width: 50%;
+        font-size: 15px;
+        color: rgb(90, 90, 90);}
+
+        .experience{
+            padding: 0px 45px;
+            min-height: 140vh;
+            background-color: #0a90b100;
+         }
+         .up-div h3{
+            font-size: 25px;
+            font-family: 'Playfair Display SC', serif;
+            width: 100%;
+            margin: auto;
+        }
+        .btn2 {
+     
+            margin: auto;
+            font-size: 12px;
+            border: 0px;
+            background-color: transparent;
+            border-bottom: 1px solid rgb(32, 146, 199);
+            padding: 10px 0px;
+            border-radius: 0px;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+            -o-border-radius: 0px;
+            font-family: 'Poppins', sans-serif;
+              font-weight: bold;
+              letter-spacing: 3px;
+              word-spacing: 5px;
+              
+              
+           }
+        .down{
+            text-align: left;
+            padding: 40px 20px;
+            max-height: 800px;
+           width: 75%;
+        }
+        
+        /* 
+        <!-- >>>>>>>>>>>>>>> surf boards?>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+        .surfboard-section{
+            padding: 0px 45px;
+        }
+        .upper h1{
+            font-family: 'Playfair Display SC', serif;
+            font-size: 45px;
+            color: #000000;
+            padding-bottom: 60px;
+        }
+        
+        
+        .con h3{
+        
+            font-family: 'Playfair Display SC', serif;
+            font-size: 25px;
+            width: 100%;
+        }
+        
+        .up-con h6{
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            color: #585858;
+        }
+        .up-con{
+            margin-left: -40px;
+            z-index: 4;
+            margin-top: 150%;
+        }
+        .down-con h2{
+            color: rgb(222, 46, 238);
+            font-size: 22px;
+        }
+        .down-con h6{
+          font-size: 13px;
+        }
+        
+        /* <<<<<<<<<<<<<<<<training >>>>>>>>>>>>>>>> */
+        #training{
+            display: flex;
+             background-color: #acaf0000;
+             justify-content: space-between;
+             align-items: center;
+             padding: 0px 40px;
+          }
+        
+          .leftt-div h1{
+            font-family: 'Playfair Display SC', serif;
+            font-size: 35px;
+            font-weight: bolder;
+        }
+        .leftt-div {
+            flex-basis: 40%;
+            padding: 0px 40px;
+        }
+        .leftt-div p{
+            font-family: 'Poppins', sans-serif;
+            padding: 15px 0px;
+            color: #888888;
+        }
+        /* >>>>>>>>>>>>>>>>>>>>> break point<<<<<<<<<<<<<< */
+        
+        #break-point{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 170px 45px;
+            background-color: rgba(250, 235, 215, 0);
+        }
+        
+        .surf{
+            flex-basis: 5%;
+            background-color: rgba(0, 49, 49, 0);
+            padding: 0px 0px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        .pic{
+            flex-basis: 50%;
+        }
+        
+        .contnt {
+            flex-basis: 40%;
+            padding: 0px 90px;
+        }
+        .surf{
+            display: flex;
+            justify-content: center;
+            align-items:flex-start;
+        }
+        
+        .surf h6{
+           writing-mode:vertical-lr;
+           text-align: left;
+           justify-content: center;
+           transform: none;
+           -webkit-transform: none;
+           -moz-transform: none;
+           -ms-transform: none;
+           -o-transform: none;
+           -webkit-writing-mode:vertical-lr;
+           -ms-writing-mode:vertical-lr;
+           margin-left: 0%;
+}
+
+.contnt {
+    flex-basis: 40%;
+    padding: 0px 20px;
+}
+.contnt h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.btn2 {
+     
+    margin: auto;
+    font-size: 12px;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(32, 146, 199);
+    padding: 10px 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      letter-spacing: 3px;
+      word-spacing: 5px;
+      
+      
+   }
+   .hrrr{
+    height: 90px;
+    width: 2px;
+   border: 0px solid rgb(0, 132, 255);
+   margin: auto;
+   background-color: rgb(0, 132, 255);
+   margin-top: -70px;
+   margin-bottom: 20px;
+}
+
+   /* <<<<<<<<<<<Join club>>>>>>>>>>>> */
+
+.text h1{
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+#join-club{
+    background-color: #a0191900;
+    padding-bottom: 100px ;
+}
+
+/* >>>>>>>> laast sec tionn<<<<<<<<<<< */
+
+.las-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #58585800;
+}
+
+.texttt{
+    padding-right: 100px;
+    padding-left: 50px;
+    flex-basis: 50%;
+}
+.texttt h1{
+
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+}
